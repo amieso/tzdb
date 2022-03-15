@@ -4,7 +4,9 @@
 
 # misc
 .DS_Store
-/dist/
+
+# We need to keep dist in the repo so that we can consume the github url as a package url.
+# /dist/
 
 # debug
 npm-debug.log*
